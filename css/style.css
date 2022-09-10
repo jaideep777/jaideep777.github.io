@@ -69,12 +69,45 @@ pre {
   display: flex;
 }
 
-.navbar a {
+.navbar .navicon{
+  display: flex;
+}
+
+
+.navbar .social{
+  display: flex;
+}
+
+.navbar .navicon a {
   font-weight: bold;
-  color: rgb(34, 34, 34);
+  color: rgb(165, 165, 165);
   padding: 10px;
   margin: 0 5px;
 }
+
+.navbar .navicon {
+  background-color: rgba(0, 0, 0, 0.733);
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.navbar .social {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+
+.navbar .social .soc a {
+  margin: 0 5px 0 0;
+  padding: 10px 0 10px 0;
+}
+
+.navbar .social .soc-1 a {
+  /* margin: 10px 0 10px 5px ; */
+  padding: 10px 5px 10px 0;
+}
+
 
 .navbar a:hover {
   border-bottom: 2px #fff solid;
@@ -94,7 +127,8 @@ pre {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: right center;
-  animation: slideInFromBottom 1s ease-in;
+  animation: none;
+  /* slideInFromBottom 1s ease-in; */
   height: 400px;
 }
 
@@ -110,12 +144,12 @@ pre {
 
 .showcase .grid {
   overflow: visible;
-  grid-template-columns:70% auto;
+  grid-template-columns:60% 40%;
   gap: 30px;
 }
 
 .showcase-text {
-  animation: slideInFromLeft 1s ease-in;
+  /* animation: slideInFromLeft 1s ease-in; */
 }
 
 .showcase-form {
@@ -128,7 +162,7 @@ pre {
   width: 300px;
   padding-bottom: 40px;
   z-index: 100;
-  animation: slideInFromRight 1s ease-in;
+  /* animation: slideInFromRight 1s ease-in; */
 }
 
 .showcase-form img {
@@ -358,13 +392,13 @@ pre {
   .showcase-text {
     text-align: center;
     margin-top: 40px;
-    animation: slideInFromTop 1s ease-in;
+    /* animation: slideInFromTop 1s ease-in; */
   }
 
   .showcase-form {
     justify-self: center;
     margin: auto;
-    animation: slideInFromBottom 1s ease-in;
+    /* animation: slideInFromBottom 1s ease-in; */
   }
 
   .cli .grid>*:first-child {
