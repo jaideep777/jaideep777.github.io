@@ -144,7 +144,7 @@ pre {
 
 .showcase .grid {
   overflow: visible;
-  grid-template-columns:60% 40%;
+  grid-template-columns:55% 35%;
   gap: 30px;
 }
 
@@ -427,7 +427,7 @@ pre {
 /* Mobile */
 @media (max-width: 500px) {
   .navbar {
-    height: 110px;
+    height: 100px;
   }
 
   .navbar .flex {
@@ -435,7 +435,8 @@ pre {
   }
 
   .navbar ul {
-    padding: 10px;
+    width: fit-content;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.1);
   }
 
