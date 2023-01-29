@@ -12,6 +12,7 @@
   transition: transform 0.2s ease-in;
   background-color: transparent;
   border-radius: 0;
+  padding: 0;
 }
 .container .research .flex .card h4 {
   font-family: Arial, Helvetica, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -20,13 +21,14 @@
   margin: 10px 0 10px 0;
 }
 .container .research .flex .card .image {
+  height: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .container .research .flex .card .image img {
-  margin-top: -18px;
-  width: 115%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container .research .flex .card:hover {
   transform: translateY(-15px);
@@ -41,4 +43,5 @@
   font-weight: 400;
   margin: 10px 0 10px 0;
   text-align: justify;
+  padding: 10px;
 }/*# sourceMappingURL=research.css.map */
