@@ -59,7 +59,7 @@ pre {
 
 /* Navbar */
 .navbar {
-  background:linear-gradient(to right, rgb(0, 0, 0) 10%, rgb(109, 109, 109) 60%, rgb(255, 255, 255) 100%);
+  background:linear-gradient(to right, rgb(0, 0, 0) 10%, rgb(73, 73, 73) 60%, rgb(150, 150, 150) 100%);
   /* background-color: var(--primary-color); */
   color: #fff;
   height: 70px;
@@ -121,15 +121,15 @@ pre {
 .showcase {
   color: white;
   padding: 15em 0;
-  background: url(../images/jaideep-profile-1.png),
-    linear-gradient(to right, rgb(0, 0, 0) 10%, rgb(109, 109, 109) 60%, rgb(255, 255, 255) 100%);
+  background: /*url(../images/jaideep-profile-1.png),*/
+    linear-gradient(to right, rgb(0, 0, 0) 10%, rgb(73, 73, 73) 60%, rgb(150, 150, 150) 100%);
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: right center;
   animation: none;
   /* slideInFromBottom 1s ease-in; */
-  height: 400px;
+  height: 700px;
 }
 
 .showcase h1 {
@@ -144,7 +144,7 @@ pre {
 
 .showcase .grid {
   overflow: visible;
-  grid-template-columns:55% 35%;
+  grid-template-columns:40% auto;
   gap: 30px;
 }
 
@@ -157,7 +157,7 @@ pre {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  top: 50px;
+  top: -110px;
   height: 400px;
   width: 300px;
   padding-bottom: 40px;
@@ -167,7 +167,7 @@ pre {
 
 .showcase-form img {
   align-self: center;
-  width: 150px;
+  width: 180px;
   margin-bottom: 20px;
   margin-top: 10px;
   border-radius: 50%;
